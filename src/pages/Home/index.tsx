@@ -54,7 +54,7 @@ export function Home() {
                             value={username}
                             onChange={(e) => setUserName(e.target.value)}
                         />
-                        <div className="flex  flex-row sm:mr-1 items-center justify-center relative">
+                        <div className="flex flex-row sm:ml-10 items-center justify-center relative">
                             <button onClick={handleSearch} disabled={loading} className="border-0 bg-gray-600 py-1 px-2 flex items-center rounded-sm text-white absolute">
                                 <CiSearch color="#fff" size={20} className="mr-2"/>
                                 Buscar
