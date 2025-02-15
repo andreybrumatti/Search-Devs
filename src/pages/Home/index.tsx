@@ -50,11 +50,11 @@ export function Home() {
                         <input
                             type="text"
                             placeholder="Type the username here..."
-                            className="border rounded-sm outline-none px-2 py-1 max-w-sm w-full"
+                            className="border rounded-sm outline-none px-2 py-1 max-w-[280px] sm:max-w-sm w-full"
                             value={username}
                             onChange={(e) => setUserName(e.target.value)}
                         />
-                        <div className="flex  flex-row mr-16 sm:mr-1 items-center relative">
+                        <div className="flex  flex-row sm:mr-1 items-center justify-center relative">
                             <button onClick={handleSearch} disabled={loading} className="border-0 bg-gray-600 py-1 px-2 flex items-center rounded-sm text-white absolute">
                                 <CiSearch color="#fff" size={20} className="mr-2"/>
                                 Buscar
